@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MountainBike</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+    <!-- tailwind script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- flowbite link -->
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+</head>
+
+<body>
+    <section class="overflow-hidden">
+        <!-- header -->
+        <div class="header fixed top-0 left-0 zindex-100 w-full">
+            <div class="header-item flex flex-row justify-around items-center bg-gray-700 py-4">
+                <div class="search w-3/6 text-center">
+                    <span class="menu mx-8 text-gray-100">home</span>
+                    <span class="menu mx-8 text-gray-100">shop</span>
+                </div>
+                <a href="#">
+                    <span class="logo-text text-blue-300 text-2xl">MountainBike</span>
+                </a>
+                <div class="search w-3/6 text-center">
+                    <span class="menu mx-8 text-gray-100">page</span>
+                    <span class="menu mx-8 text-gray-100">template</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- background cover -->
+        <div class="cover">
+            <div class="cover-content">
+                <div class="cover-itemss bg-center bg-cover" style="background-image: url(./images/coverr.jpg)">
+                    <div class="cover-items flex flex-row py-16 px-8">
+                        <div class="cover-item flex flex-col justify-center mt-12 w-3/6" data-aos="fade-right">
+                            <span class="cover-text1 my-4 text-gray-500">MADE FOR FUN</span>
+                            <div class="">
+                                <h2 class="cover-text2 text-4xl text-blue-800 font-bold">Ride with more confidence</h2>
+                            </div>
+                            <div class="mt-8">
+                                <span class="cover-text3 text-md text-blue-800 text-justify">
+                                    Mountain Bikes are amazingly capable and made for exploring the great beyond. Bring the adventure home.
+                                </span>
+                            </div>
+                            <div class="cover-shop mt-8">
+                                <span class="cover-text4 text-sm text-white font-bold border px-6 py-4 rounded bg-orange-600">
+                                    SHOP ALL PRODUCTS
+                                </span>
+                            </div>
+                        </div>
+                        <!-- <div class="cover-images p-8" data-aos="fade-left">
+                            <div class="cover-img max-w-md">
+                                <img src="./images/5.jpg">
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- middle -->
+        <div class="middle flex justify-center items-center py-8">
+            <div class="middled max-w-6xl">
+                <!-- dualsport -->
+                <div class="dualsport-content flex flex-row justiy-around py-8">
+                    <div class="dualsport-item flex flex-col justify-center items-center">
+                        <span class="text-4xl font-bold">Dualsport</span>
+                        <span class="px-8 py-4 text-center">"They look dope and will help protect your smart brain!"</span>
+                    </div>
+                    <div class="dualsport-item flex flex-col justify-center items-center">
+                        <span class="text-4xl font-bold">FieldTest</span>
+                        <span class="px-8 py-4 text-center">"We dropped the helmet off of a six story building!"</span>
+                    </div>
+                    <div class="dualsport-item flex flex-col justify-center items-center">
+                        <spa class="text-4xl font-bold" n>FreeSpin</spa>
+                        <span class="px-8 py-4 text-center">"My head is so big and this helmet somehow fits!"</span>
+                    </div>
+                </div>
+                <!-- helmet 01 -->
+                <div class="helmet mt-12 bg-gray-200 rounded-3xl">
+                    <div class="helmet-content flex flex-row items-center">
+                        <div class="helmet-items flex flex-col ml-8">
+                            <span class=" py-4">HELMETS</span>
+                            <span class="helmet-text py-4 text-5xl font-bold">A better fit and more comfort</span>
+                            <span class="helmet-text1 py-4 text-justify">The Specialized Stumpjumper is a popular option for adventurous bikers, or the Trek Marlin is a great entry-level choice for those getting into mountain biking.</span>
+                            <div class="my-8">
+                                <span class=" py-4 px-12 bg-yellow-400 rounded text-sm font-bold">Shop Now</span>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="./images/4.png">
+                        </div>
+                    </div>
+                </div>
+                <!-- only 02 -->
+                <div class="only mt-32">
+                    <div class="only-content flex flex-row items-center">
+                        <div class="only-item w-3/6">
+                            <img src="./images/10.jpg" class="only-img max-w-lg">
+                        </div>
+                        <div class="only-items flex flex-col px-12 w-3/6">
+                            <span class=" py-4">HIGH QUALITY</span>
+                            <span class="only-text py-4 text-5xl font-bold">Only premium materials used</span>
+                            <span class="only-text1 py-4 text-justify">Hardtail mountain bikes which feature a front suspension fork to absorb bumps and lumps, full-suspension mountain bikes with front and rear travel to allow for tackling bumpier terrain and a simple rigid mountain bike which relies on the large volume tyres and tread to absorb vibrations.</span>
+                            <div class="only-item my-8">
+                                <span class="py-4 px-12 bg-red-600 text-white rounded text-sm font-bold">01</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Designed 03 -->
+                <div class="designed mt-32">
+                    <div class="designed-content flex flex-row items-center">
+                        <div class="designed-items flex flex-col ml-8 px-12 w-3/6">
+                            <span class=" py-4">FRESH DESIGN</span>
+                            <span class="designed-text py-4 text-5xl font-bold">Designed for riders by riders</span>
+                            <span class="designed-text1 py-4 text-justify">We stock the largest brands including Specialized, Whyte , Trek and Cube, with both steel, aluminium and carbon frames available to make your off-road adventure as exciting as possible.</span>
+                            <div class="designed-item my-8">
+                                <span class=" py-4 px-12 bg-red-600 text-white rounded text-sm font-bold">03</span>
+                            </div>
+                        </div>
+                        <div class="designed-item w-3/6">
+                            <img src="./images/8.jpg" class="designed-img max-w-lg">
+                        </div>
+                    </div>
+                </div>
+                <!-- made 04 -->
+                <div class="made mt-32">
+                    <div class="made-content flex flex-row items-center">
+                        <div class="made-item w-3/6">
+                            <img src="./images/11.jpeg" class="made-img max-w-lg">
+                        </div>
+                        <div class="made-items flex flex-col px-12 w-3/6">
+                            <span class=" py-4">OUR GUARANTEE</span>
+                            <span class="made-text py-4 text-5xl font-bold">Made to help you last a lifetime</span>
+                            <span class="made-text1 py-4 text-justify">Features can include hydraulic disc brakes, dropper seatposts and one by drivetrains for seamless shifting. Mountain bikes can have different wheel sizes as well dependant on riding style and rider size, from 27.5" wheels up to 29" which offer minimum rolling resistance over rough ground.</span>
+                            <div class="mad-item my-8">
+                                <span class=" py-4 px-12 bg-red-600 text-white rounded text-sm font-bold">04</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="product pt-12 bg-gray-300 flex justify-center items-center">
+            <div class="product-content max-w-5xl">
+                <div class="product-items flex flex-col justify-center items-center my-8">
+                    <span class="py-8 text-gray-500">FEATURES</span>
+                    <span class="text-3xl text-center font-bold max-w-3xl">Our products are designed to keep you safe, but also make you look great.</span>
+                </div>
+                <div class="product-items flex flex-row p-8">
+                    <div class="product-item flex flex-col justify-center items-center">
+                        <img src="./images/tent.png" class="product-img w-20">
+                        <span class="my-4 font-bold">Outdoor Tested</span>
+                        <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                    </div>
+                    <div class="product-item flex flex-col justify-center items-center">
+                        <img src="./images/bonfire.png" class="product-img w-20">
+                        <spa class="my-4 font-bold" n>Pro Approved</spa>
+                        <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                    </div>
+                    <div class="product-item flex flex-col justify-center items-center">
+                        <img src="./images/bicycle.png" class="product-img w-20">
+                        <span class="my-4 font-bold">Cambodia Made</span>
+                        <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- # 2 # -->
+        <div class="pottery2_1 w-full flex flex-col items-center pt-12">
+            <div class="text-4xl font-bold">
+                <span>Shop our helmets</span>
+            </div>
+            <div class="pottery2_2 flex flex-row items-center my-8 mx-8">
+                <!-- 1 -->
+                <div class="pottery2_3 flex flex-col items-center mx-4 border-b hover:border-b-blue-600" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="bg-no-repeat bg-cover">
+                        <img src="./images/1.jpg">
+                    </div>
+                    <a href=" " class="pottery2_5 mt-4 ">
+                        <span class="pottery2_6 text-left ">Tangerine</span>
+                    </a>
+                    <span class="pottery2_7 text-left font-bold ">$ 165.00 USD</span>
+                </div>
+                <!-- 2 -->
+                <div class="pottery2_8 flex flex-col justify-center items-center mx-4 border-b hover:border-b-blue-600 " data-aos="fade-down " data-aos-easing="linear " data-aos-duration="1500 ">
+                    <div class="bg-no-repeat bg-cover ">
+                        <img src="./images/2.jpg ">
+                    </div>
+                    <a href="" class="pottery2_10 mt-4">
+                        <span class="pottery2_11 text-left">Night</span>
+                    </a>
+                    <span class="pottery2_12 text-left font-bold">$ 175.00 USD</span>
+                </div>
+                <!-- 3 -->
+                <div class="pottery2_13 flex flex-col justify-center items-center mx-4 border-b hover:border-b-blue-600" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="bg-no-repeat bg-cover">
+                        <img src="./images/3.jpg">
+                    </div>
+                    <a href=" " class="pottery2_15 mt-4 ">
+                        <span class="pottery2_16 text-left ">Granite</span>
+                    </a>
+                    <span class="pottery2_17 text-left font-bold ">$ 185.00 USD</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- shop all product -->
+        <div class="shop py-12">
+            <div class="shop-centent text-center">
+                <span class="bg-green-600 px-12 py-4 text-white font-bold">SHOP ALL PRODUCTS</span>
+            </div>
+        </div>
+
+        <!-- interviews -->
+        <div class="view py-20 flex justify-center items-center">
+            <div class="view-content flex flex-row max-w-5xl">
+                <div class="view-items mx-4 w-2/6">
+                    <div class="w-72 flex flex-col">
+                        <div class="bg-no-repeat bg-cover">
+                            <img src="./images/8.jpg" class="w-72 h-48">
+                        </div>
+                        <span class="my-2">INTERVIEWS</span>
+                        <span class="text-xl font-bold my-2">Coffee With Jim Andrews</span>
+                        <span class="text-justify text-sm">Donec sed nunc ac diam euismod pharetra et sed mauris. Curabitur congue mauris a sollicitudin fringilla.</span>
+                    </div>
+                </div>
+                <div class="view-items mx-4 w-2/6">
+                    <div class="w-72 flex flex-col">
+                        <div class="bg-no-repeat bg-cover">
+                            <img src="./images/6.jpg" class="w-72 h-48">
+                        </div>
+                        <span class="my-2">TRIPS</span>
+                        <span class="text-xl font-bold my-2">Coffee With Jim Andrews</span>
+                        <span class="text-justify text-sm">Donec sed nunc ac diam euismod pharetra et sed mauris. Curabitur congue mauris a sollicitudin fringilla.</span>
+                    </div>
+                </div>
+                <div class="view-items mx-4 w-2/6">
+                    <div class="w-72 flex flex-col">
+                        <div class="bg-no-repeat bg-cover">
+                            <img src="./images/7.jpg" class="w-72 h-48">
+                        </div>
+                        <span class="my-2">INTERVIEWS</span>
+                        <span class="text-xl font-bold my-2">Coffee With Jim Andrews</span>
+                        <span class="text-justify text-sm">Donec sed nunc ac diam euismod pharetra et sed mauris. Curabitur congue mauris a sollicitudin fringilla.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- visit blog -->
+        <div class="blog py-12">
+            <div class="blog-centent text-center">
+                <span class="bg-green-600 px-18 py-4 text-white">Visit Blog</span>
+            </div>
+        </div>
+
+        <!-- footer -->
+
+
+    </section>
+    <script src="../path/to/flowbite/dist/flowbite.js "></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js "></script>
+</body>
+
+</html>

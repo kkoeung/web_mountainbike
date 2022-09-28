@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel:wght@600&family=Courgette&family=Lobster&family=Lobster+Two:wght@700&family=Merienda&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header .logo-text {
+    font-family: 'Lobster Two', cursive;
+}
+
+.header .menu {
+    font-family: 'Courgette', cursive;
+}

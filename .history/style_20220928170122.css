@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel:wght@600&family=Courgette&family=Lobster&family=Lobster+Two:wght@700&family=Merienda&family=Poppins&family=Roboto+Slab&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.header .logo-text {
+    font-family: 'Lobster Two', cursive;
+}
+
+.footer .footer-logo {
+    font-family: 'Lobster Two', cursive;
+}
+
+.header .menu {
+    font-family: 'Bree Serif', serif;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .header .logo-text {
+        font-size: 20px;
+    }
+    .header .menu {
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0 50px;
+    }
+    /* background cover */
+    .cover .cover-items {
+        padding: 50px 20px;
+    }
+    .cover .cover-item {
+        width: 100%;
+    }
+    /* middle */
+    /* dualsport */
+    .middle .middled {
+        width: 100%;
+        padding: 20px;
+    }
+    .middle .dualsport-content {
+        display: flex;
+        flex-direction: column;
+    }
+    /* helmet */
+    .middle .helmet .helmet-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .middle .helmet .helmet-items {
+        margin: 0;
+        padding: 20px;
+    }
+    .middle .helmet .helmet-items .helmet-text {
+        font-size: 30px;
+    }
+    .middle .helmet .helmet-items .helmet-text1 {
+        font-size: 15px;
+    }
+    /* only 02 */
+    .middle .only {
+        margin-top: 40px;
+    }
+    .middle .only .only-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .middle .only .only-content .only-item {
+        width: 100%;
+    }
+    .middle .only .only-content .only-item .only-img {
+        width: 100%;
+    }
+    .middle .only .only-items {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .middle .only .only-items .only-text {
+        font-size: 30px;
+    }
+    .middle .only .only-items .only-text1 {
+        font-size: 15px;
+    }
+    /* designed 02 */
+    .middle .designed {
+        margin-top: 40px;
+    }
+    .middle .designed .designed-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .middle .designed .designed-content .designed-item {
+        width: 100%;
+    }
+    .middle .designed .designed-content .designed-item .designed-img {
+        width: 100%;
+    }
+    .middle .designed .designed-items {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .middle .designed .designed-items .designed-text {
+        font-size: 30px;
+    }
+    .middle .designed .designed-items .designed-text1 {
+        font-size: 15px;
+    }
+    /* made 02 */
+    .middle .made {
+        margin-top: 40px;
+    }
+    .middle .made .made-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .middle .made .made-content .made-item {
+        width: 100%;
+    }
+    .middle .made .made-content .made-item .made-img {
+        width: 100%;
+    }
+    .middle .made .made-items {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .middle .made .made-items .made-text {
+        font-size: 30px;
+    }
+    .middle .made .made-items .made-text1 {
+        font-size: 15px;
+    }
+    /* product */
+    .product {
+        padding: 20px;
+    }
+    .product .product-content {
+        width: 100%;
+    }
+    .product .product-text1 {
+        font-size: 25px;
+        word-break: break-all;
+    }
+    .product .product-items {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .product .product-item {
+        margin: 15px;
+    }
+    /* night */
+    .night .night-text1 {
+        font-size: 25px;
+    }
+    .night .night-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 5px;
+    }
+    .night .night-content .night-items {
+        margin-top: 30px;
+    }
+    /* views */
+    .view .view-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .view .view-content .view-items {
+        margin-top: 30px;
+    }
+    /* footer */
+    .footer .footer-content .footer-items {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* @media (min-width: 481px) and (max-width: 767px) 
+    @media (min-width: 768px) and (max-width: 1024px) 
+    @media (min-width: 1025px) and (max-width: 1280px) */

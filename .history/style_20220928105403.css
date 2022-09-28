@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel:wght@600&family=Courgette&family=Lobster&family=Lobster+Two:wght@700&family=Merienda&family=Roboto+Slab:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.header .logo-text {
+    font-family: 'Lobster Two', cursive;
+}
+
+.header .menu {
+    font-family: 'Bree Serif', serif;
+}
