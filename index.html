@@ -12,12 +12,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- flowbite link -->
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <!-- data aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
-
 <body>
     <section class="overflow-hidden">
         <!-- header -->
-        <div class="header fixed top-0 left-0 zindex-100 w-full">
+        <div class="header w-full">
             <div class="header-item flex flex-row justify-around items-center bg-gray-700 py-4">
                 <div class="search w-3/6 text-center">
                     <a href="#">
@@ -45,7 +47,7 @@
 
         <!-- background cover -->
         <div class="cover">
-            <div class="cover-content">
+            <div class="cover-content" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div class="cover-itemss bg-center bg-cover" style="background-image: url(./images/coverr.jpg)">
                     <div class="cover-items flex flex-row py-16 px-8">
                         <div class="cover-item flex flex-col justify-center mt-12 w-3/6" data-aos="fade-right">
@@ -79,15 +81,19 @@
             <div class="middled max-w-6xl">
                 <!-- dualsport -->
                 <div class="dualsport-content flex flex-row justiy-around py-8">
-                    <div class="dualsport-item flex flex-col justify-center items-center">
+                    <div class="dualsport-item flex flex-col justify-center items-center" data-aos="fade-up"
+                    data-aos-duration="3000">
                         <span class="text-4xl font-bold">Dualsport</span>
                         <span class="px-8 py-4 text-center">"They look dope and will help protect your smart brain!"</span>
                     </div>
-                    <div class="dualsport-item flex flex-col justify-center items-center">
+                    <div class="dualsport-item flex flex-col justify-center items-center" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                         <span class="text-4xl font-bold">FieldTest</span>
                         <span class="px-8 py-4 text-center">"We dropped the helmet off of a six story building!"</span>
                     </div>
-                    <div class="dualsport-item flex flex-col justify-center items-center">
+                    <div class="dualsport-item flex flex-col justify-center items-center" data-aos="fade-up"
+                    data-aos-duration="3000">
                         <spa class="text-4xl font-bold" n>FreeSpin</spa>
                         <span class="px-8 py-4 text-center">"My head is so big and this helmet somehow fits!"</span>
                     </div>
@@ -95,7 +101,9 @@
                 <!-- helmet 01 -->
                 <div class="helmet mt-12 bg-gray-200 rounded-3xl">
                     <div class="helmet-content flex flex-row items-center">
-                        <div class="helmet-items flex flex-col ml-8">
+                        <div class="helmet-items flex flex-col ml-8" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                             <span class=" py-4">HELMETS</span>
                             <span class="helmet-text py-4 text-5xl font-bold">A better fit and more comfort</span>
                             <span class="helmet-text1 py-4 text-justify">The Specialized Stumpjumper is a popular option for adventurous bikers, or the Trek Marlin is a great entry-level choice for those getting into mountain biking.</span>
@@ -103,7 +111,9 @@
                                 <span class=" py-4 px-12 bg-yellow-400 rounded text-sm font-bold">Shop Now</span>
                             </div>
                         </div>
-                        <div class="">
+                        <div class="" data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                             <img src="./images/4.png">
                         </div>
                     </div>
@@ -111,10 +121,14 @@
                 <!-- only 02 -->
                 <div class="only mt-32">
                     <div class="only-content flex flex-row items-center">
-                        <div class="only-item w-3/6">
+                        <div class="only-item w-3/6" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                             <img src="./images/10.jpg" class="only-img max-w-lg">
                         </div>
-                        <div class="only-items flex flex-col px-12 w-3/6">
+                        <div class="only-items flex flex-col px-12 w-3/6" data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                             <span class=" py-4">HIGH QUALITY</span>
                             <span class="only-text py-4 text-5xl font-bold">Only premium materials used</span>
                             <span class="only-text1 py-4 text-justify">Hardtail mountain bikes which feature a front suspension fork to absorb bumps and lumps, full-suspension mountain bikes with front and rear travel to allow for tackling bumpier terrain and a simple rigid mountain bike which relies on the large volume tyres and tread to absorb vibrations.</span>
@@ -127,7 +141,9 @@
                 <!-- Designed 03 -->
                 <div class="designed mt-32">
                     <div class="designed-content flex flex-row items-center">
-                        <div class="designed-items flex flex-col ml-8 px-12 w-3/6">
+                        <div class="designed-items flex flex-col ml-8 px-12 w-3/6" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                             <span class=" py-4">FRESH DESIGN</span>
                             <span class="designed-text py-4 text-5xl font-bold">Designed for riders by riders</span>
                             <span class="designed-text1 py-4 text-justify">We stock the largest brands including Specialized, Whyte , Trek and Cube, with both steel, aluminium and carbon frames available to make your off-road adventure as exciting as possible.</span>
@@ -135,7 +151,9 @@
                                 <span class=" py-4 px-12 bg-red-600 text-white rounded text-sm font-bold">03</span>
                             </div>
                         </div>
-                        <div class="designed-item w-3/6">
+                        <div class="designed-item w-3/6" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                             <img src="./images/8.jpg" class="designed-img max-w-lg">
                         </div>
                     </div>
@@ -143,10 +161,14 @@
                 <!-- made 04 -->
                 <div class="made mt-32">
                     <div class="made-content flex flex-row items-center">
-                        <div class="made-item w-3/6">
+                        <div class="made-item w-3/6" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"> 
                             <img src="./images/11.jpeg" class="made-img max-w-lg">
                         </div>
-                        <div class="made-items flex flex-col px-12 w-3/6">
+                        <div class="made-items flex flex-col px-12 w-3/6" data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                             <span class=" py-4">OUR GUARANTEE</span>
                             <span class="made-text py-4 text-5xl font-bold">Made to help you last a lifetime</span>
                             <span class="made-text1 py-4 text-justify">Features can include hydraulic disc brakes, dropper seatposts and one by drivetrains for seamless shifting. Mountain bikes can have different wheel sizes as well dependant on riding style and rider size, from 27.5" wheels up to 29" which offer minimum rolling resistance over rough ground.</span>
@@ -166,17 +188,23 @@
                     <span class="product-text1 text-3xl text-center font-bold max-w-3xl">Our products are designed to keep you safe, but also make you look great.</span>
                 </div>
                 <div class="product-items flex flex-row p-8">
-                    <div class="product-item flex flex-col justify-center items-center">
+                    <div class="product-item flex flex-col justify-center items-center" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                         <img src="./images/tent.png" class="product-img w-20">
                         <span class="my-4 font-bold">Outdoor Tested</span>
                         <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
                     </div>
-                    <div class="product-item flex flex-col justify-center items-center">
+                    <div class="product-item flex flex-col justify-center items-center" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <img src="./images/bonfire.png" class="product-img w-20">
                         <spa class="my-4 font-bold" n>Pro Approved</spa>
                         <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
                     </div>
-                    <div class="product-item flex flex-col justify-center items-center">
+                    <div class="product-item flex flex-col justify-center items-center" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                         <img src="./images/bicycle.png" class="product-img w-20">
                         <span class="my-4 font-bold">Cambodia Made</span>
                         <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
@@ -193,8 +221,8 @@
             <div class="night-content flex flex-row items-center my-8 mx-8">
                 <!-- 1 -->
                 <div class="night-items flex flex-col items-center mx-4 border-b hover:border-b-blue-600" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <div class="bg-no-repeat bg-cover">
-                        <img src="./images/1.jpg">
+                    <div class="relative overflow-hidden bg-no-repeat bg-cover">
+                        <img src="./images/1.jpg" class=" hover:scale-110 transition duration-300 ease-in-out" alt="Louvre" />
                     </div>
                     <a href=" " class="pottery2_5 mt-4 ">
                         <span class="pottery2_6 text-left ">Tangerine</span>
@@ -202,9 +230,10 @@
                     <span class="pottery2_7 text-left font-bold ">$ 165.00 USD</span>
                 </div>
                 <!-- 2 -->
-                <div class="night-items flex flex-col justify-center items-center mx-4 border-b hover:border-b-blue-600 " data-aos="fade-down " data-aos-easing="linear " data-aos-duration="1500 ">
-                    <div class="bg-no-repeat bg-cover ">
-                        <img src="./images/2.jpg ">
+                <div class="night-items flex flex-col justify-center items-center mx-4 border-b hover:border-b-blue-600 " data-aos="fade-down"
+                data-aos-duration="3000">
+                    <div class="relative overflow-hidden bg-no-repeat bg-cover">
+                        <img src="./images/2.jpg" class=" hover:scale-110 transition duration-300 ease-in-out" alt="Louvre" />
                     </div>
                     <a href="" class="pottery2_10 mt-4">
                         <span class="pottery2_11 text-left">Night</span>
@@ -213,8 +242,8 @@
                 </div>
                 <!-- 3 -->
                 <div class="night-items flex flex-col justify-center items-center mx-4 border-b hover:border-b-blue-600" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                    <div class="bg-no-repeat bg-cover">
-                        <img src="./images/3.jpg">
+                    <div class="relative overflow-hidden bg-no-repeat bg-cover">
+                        <img src="./images/3.jpg" class=" hover:scale-110 transition duration-300 ease-in-out" alt="Louvre" />
                     </div>
                     <a href=" " class="pottery2_15 mt-4 ">
                         <span class="pottery2_16 text-left ">Granite</span>
@@ -235,7 +264,7 @@
         <div class="view py-12 flex justify-center items-center">
             <div class="view-content flex flex-row max-w-5xl">
                 <div class="view-items mx-4 w-2/6">
-                    <div class="w-72 flex flex-col">
+                    <div class="w-72 flex flex-col" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div class="bg-no-repeat bg-cover">
                             <img src="./images/8.jpg" class="w-72 h-48">
                         </div>
@@ -244,7 +273,7 @@
                         <span class="text-justify text-sm">Donec sed nunc ac diam euismod pharetra et sed mauris. Curabitur congue mauris a sollicitudin fringilla.</span>
                     </div>
                 </div>
-                <div class="view-items mx-4 w-2/6">
+                <div class="view-items mx-4 w-2/6" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="w-72 flex flex-col">
                         <div class="bg-no-repeat bg-cover">
                             <img src="./images/6.jpg" class="w-72 h-48">
@@ -254,7 +283,7 @@
                         <span class="text-justify text-sm">Donec sed nunc ac diam euismod pharetra et sed mauris. Curabitur congue mauris a sollicitudin fringilla.</span>
                     </div>
                 </div>
-                <div class="view-items mx-4 w-2/6">
+                <div class="view-items mx-4 w-2/6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="w-72 flex flex-col">
                         <div class="bg-no-repeat bg-cover">
                             <img src="./images/7.jpg" class="w-72 h-48">
@@ -362,10 +391,12 @@
             </div>
         </div>
 
-
     </section>
+    <script>
+        AOS.init();
+    </script>
+
     <script src="../path/to/flowbite/dist/flowbite.js "></script>
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js "></script>
 </body>
-
 </html>
